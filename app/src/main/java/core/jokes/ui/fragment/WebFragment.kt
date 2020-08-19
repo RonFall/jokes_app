@@ -12,7 +12,6 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import core.jokes.R
 
-
 class WebFragment : Fragment() {
 
     private lateinit var webView: WebView
@@ -24,7 +23,7 @@ class WebFragment : Fragment() {
         webView = view.findViewById(R.id.webView)
         webView.webViewClient = InnerWebViewClient()
         webView.settings.javaScriptEnabled = true
-        webView.loadUrl("https://tenebrius.ru/")
+        webView.loadUrl("http://www.icndb.com/api/")
 
         val callback: OnBackPressedCallback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {

@@ -4,7 +4,6 @@
     <!--    FRAGMENT    -->
     <string name="bottom_nav_jokes">Jokes</string>
     <string name="bottom_nav_web">Web</string>
-
     <string name="btn_reload_text">Reload</string>
 
 </resources>
