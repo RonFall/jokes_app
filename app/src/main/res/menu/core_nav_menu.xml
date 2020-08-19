@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_jokes"
+        android:enabled="true"
+        android:icon="@drawable/joke"
+        android:title="@string/bottom_nav_jokes" />
+
+    <item android:id="@+id/item_web"
+        android:enabled="true"
+        android:icon="@drawable/web"
+        android:title="@string/bottom_nav_web" />
+</menu>
