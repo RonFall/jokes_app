@@ -36,7 +36,8 @@
             android:ems="12"
             android:inputType="number"
             android:textColor="#000000"
-            android:textColorHint="#000000"/>
+            android:hint="@string/text_field_hint"
+            android:textColorHint="@color/colorPrimary"/>
 
         <Button
             android:id="@+id/btn_reload"
