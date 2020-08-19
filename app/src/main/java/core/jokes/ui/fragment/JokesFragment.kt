@@ -21,6 +21,7 @@ class JokesFragment : Fragment() {
         API.initApi()
         val view = inflater.inflate(R.layout.fragment_jokes, container, false)
         onReload(view)
+        retainInstance = true
         return view
     }
 
